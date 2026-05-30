@@ -697,6 +697,21 @@ p {
   font-size: 13px;
 }
 
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  margin-top: 14px;
+  padding: 0 14px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 820;
+  background: #eef5ff;
+  border: 1px solid #d8e8ff;
+  border-radius: 6px;
+}
+
 .zrbot-widget {
   position: fixed;
   right: 24px;
