@@ -1,0 +1,16 @@
+.DS_Store
+
+# Source materials used to draft the public site. Do not publish raw decks/reports by default.
+*.pdf*
+*.txt
+preview/
+site-preview-*.png
+github_api.rtf
+.github_deploy_repo.json
+微信联系方式.jpg
+
+# Keep public-ready copies under assets/.
+天太logo.jpeg
+灵心巧手logo.jpeg
+智融logo.png
+香港创新院.png
