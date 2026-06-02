@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
@@ -6,35 +6,31 @@
     <title>智融 | 制造业具身智能赋能平台</title>
     <meta
       name="description"
-      content="智融面向先进制造业，围绕现场数据、工艺知识、人机协作与具身执行能力，建设可落地的智能制造解决方案。"
+      content="智融帮助制造企业把现场数据、工艺经验和人员操作流程沉淀成可用的智能制造能力。"
     />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:title" content="智融 | 制造业具身智能赋能平台" />
-    <meta
-      property="og:description"
-      content="先解决制造现场的数据、知识和人才瓶颈，再逐步导入场景智能与具身执行系统。"
-    />
-    <meta property="og:image" content="assets/zhirong-presentation-cover.png" />
-    <link rel="icon" href="assets/zhirong-logo.png" />
-    <link rel="stylesheet" href="styles.css?v=20260601g" />
+    <meta property="og:description" content="让制造现场的数据和经验，成为可训练、可部署、可复用的智能能力。" />
+    <meta property="og:image" content="assets/illustrations/zhirong-presentation-cover.png" />
+    <link rel="icon" href="assets/brand/zhirong-logo.png" />
+    <link rel="stylesheet" href="styles.css?v=20260602l" />
   </head>
-  <body>
+  <body data-page="home">
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="智融首页">
-        <img src="assets/zhirong-logo.png" alt="智融" />
+      <a class="brand" href="index.html" aria-label="智融首页">
+        <img src="assets/brand/zhirong-logo.png" alt="智融" />
       </a>
       <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-nav-toggle>
         <span></span>
         <span></span>
       </button>
       <nav class="site-nav" data-nav>
-        <a href="#pain">行业痛点</a>
-        <a href="#solution">智融方案</a>
-        <a href="#brain">智能大脑</a>
-        <a href="#body">硬件协同</a>
-        <a href="#scenarios">工业场景</a>
-        <a href="#events">近期活动</a>
-        <a href="#contact">微信联系</a>
+        <a href="index.html">首页</a>
+        <a href="solutions.html">解决方案</a>
+        <a href="technology.html">技术能力</a>
+        <a href="activities.html">近期活动</a>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系我们</a>
       </nav>
       <div class="header-actions" aria-label="语言与联系入口">
         <div class="language-switch" role="group" aria-label="Language">
@@ -42,7 +38,7 @@
           <button type="button" data-lang="zh-CN" class="active">简</button>
           <button type="button" data-lang="zh-HK">繁</button>
         </div>
-        <a class="header-contact" href="#contact">联系我们</a>
+        <a class="header-contact" href="contact.html">联系我们</a>
       </div>
     </header>
 
@@ -50,348 +46,199 @@
       <section class="hero" aria-label="智融制造业具身智能赋能平台">
         <div class="hero-copy">
           <p class="eyebrow">Embodied Intelligence for Manufacturing</p>
-          <h1>制造业具身智能，先解决现场数据与工艺经验</h1>
+          <h1>让制造现场的数据和经验，变成可用的智能能力</h1>
           <p class="hero-lede">
-            现场数据难采、工艺经验难沉淀、复杂操作难复制。智融先从数智化底座与场景智能进入，再逐步导入具身执行系统。
+            智融与先进制造企业一起梳理设备数据、工艺流程和人员操作经验，建设知识系统、培训工具和工位辅助应用，并在合适场景验证机器人执行。
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#pain">查看行业痛点</a>
-            <a class="button secondary" href="#solution">了解智融方案</a>
+            <a class="button primary" href="solutions.html">查看解决方案</a>
+            <a class="button secondary" href="activities.html">查看近期活动</a>
           </div>
         </div>
         <div class="hero-visual" data-parallax-stage>
           <div class="visual-card">
-            <img src="assets/hero-robot-platform.jpg" alt="机械臂与数据底座示意" data-parallax-machine />
+            <img src="assets/illustrations/hero-robot-platform.jpg" alt="机械臂与数据底座示意" data-parallax-machine />
           </div>
         </div>
       </section>
 
-      <section class="section pain-section" id="pain">
+      <section class="section pain-section">
         <div class="section-heading">
-          <p class="eyebrow">Pain Points</p>
-          <h2>制造业具身智能落地，首先受制于数据、底座与人才</h2>
-          <p>
-            先进制造企业通常不会一步到位采购通用机器人。更现实的路径，是先把现场数据、流程知识和人员经验整理成可计算、可训练、可复用的基础设施。
-          </p>
+          <p class="eyebrow">Why Zhirong</p>
+          <h2>很多智能化项目，真正卡在现场资料和操作经验</h2>
+          <p>制造企业并不缺概念，缺的是能贴近工位、能被一线人员使用、能持续沉淀数据和知识的工具。</p>
         </div>
-        <div class="pain-grid">
+        <div class="pain-grid compact-grid">
           <article>
             <span>01</span>
-            <h3>高质量具身数据难获取</h3>
-            <p>接触丰富、长时域装配和柔性操作任务，往往缺少稳定、低成本、可复用的数据采集流程。</p>
+            <h3>资料分散</h3>
+            <p>设备状态、工艺文件、图像视频和质检记录分散在不同系统里。</p>
           </article>
           <article>
             <span>02</span>
-            <h3>缺少具身就绪型数据底座</h3>
-            <p>设备状态、图像视频、力触觉、人类动作和工艺记录分散在不同系统中，难以支撑持续训练和部署。</p>
+            <h3>经验依赖个人</h3>
+            <p>老师傅的判断和操作细节难以被新员工快速学习和复用。</p>
           </article>
           <article>
             <span>03</span>
-            <h3>复合型人才与训练体系不足</h3>
-            <p>制造现场需要理解工艺、机器人、AI 和人机协作的复合能力，单一软件或硬件交付很难形成长期闭环。</p>
+            <h3>复杂操作难复制</h3>
+            <p>装配、检测、分拣和运维任务需要数据、流程和执行系统一起配合。</p>
           </article>
         </div>
       </section>
 
-      <section class="section solution-section" id="solution">
+      <section class="section solution-section">
         <div class="section-heading">
-          <p class="eyebrow">Zhirong Approach</p>
-          <h2>智融方案：从数采和知识底座切入，逐步走向具身部署</h2>
+          <p class="eyebrow">Solutions</p>
+          <h2>我们先做几件真正能落地的事</h2>
         </div>
         <div class="solution-flow">
           <div>
-            <strong>数智化底座</strong>
-            <p>数据接入、治理、知识沉淀、SOP 和工艺智能化。</p>
+            <strong>整理现场数据</strong>
+            <p>把设备、图像、工艺和人员操作记录接入统一的知识底座。</p>
           </div>
           <div>
-            <strong>场景智能应用</strong>
-            <p>XR 辅助、工位智能体、质检分析、培训平台与操作指导。</p>
+            <strong>沉淀工艺知识</strong>
+            <p>把 SOP、异常经验和操作步骤变成可查询、可培训的内容。</p>
           </div>
           <div>
-            <strong>人本具身智能</strong>
-            <p>围绕真实工位，把模型、交互、末端执行和部署评测连接起来。</p>
+            <strong>辅助人员操作</strong>
+            <p>用 XR/AI 培训、质检提示和工位助手降低学习与出错成本。</p>
           </div>
           <div>
-            <strong>教育与人才培养</strong>
-            <p>面向职业教育、产业培训和中小学具身智能课程形成第二增长曲线。</p>
+            <strong>验证机器人执行</strong>
+            <p>在清晰场景中验证机械臂、末端执行器和工位软件协同。</p>
           </div>
         </div>
-        <div class="evidence-grid" aria-label="项目材料与能力说明">
-          <figure>
-            <img src="智融第一页.png" alt="智融项目首页材料" />
-            <figcaption>项目定位：制造业具身智能赋能平台</figcaption>
-          </figure>
-          <figure>
-            <img src="核心痛点.png" alt="制造业具身智能核心痛点" />
-            <figcaption>行业痛点：数据、底座与人才瓶颈</figcaption>
-          </figure>
-          <figure>
-            <img src="具身智能不会一步到位.png" alt="具身智能落地路径说明" />
-            <figcaption>落地路径：先底座，再场景，后执行</figcaption>
-          </figure>
+        <div class="section-actions">
+          <a class="button primary" href="solutions.html">进入解决方案</a>
+          <a class="button secondary" href="technology.html">查看技术能力</a>
         </div>
       </section>
 
-      <section class="section brain-section" id="brain">
+      <section class="section brain-section">
         <div class="section-heading center">
-          <p class="eyebrow">The Brain</p>
-          <h2>智能大脑：把任务、数据与现场反馈接成闭环</h2>
-          <p>
-            这里不夸大单一模型能力，而是展示可落地的控制逻辑：任务拆解、过程记录、异常提示、人工接管和现场评测。
-          </p>
+          <p class="eyebrow">Technology</p>
+          <h2>技术服务现场，而不是停在演示视频里</h2>
+          <p>团队围绕遥操采集、触觉视觉融合、少样本技能学习和人机协作，持续把研究能力连接到制造工位。</p>
         </div>
-        <div class="zigzag">
-          <article class="copy-block">
-            <p class="eyebrow">Control Logic</p>
-            <h3>面向制造现场的任务理解与安全约束</h3>
-            <p>系统围绕 SOP、工艺步骤和设备状态建立任务上下文，在遥操、半自主和自动执行之间保留清晰切换路径。</p>
-            <ul>
-              <li>保留数据、评测与追溯接口</li>
-              <li>支持人工确认和异常接管</li>
-              <li>围绕具体工位逐步验证，而不是一次性承诺通用替代</li>
-            </ul>
+        <div class="capability-strip">
+          <article>
+            <h3>XR/AR 遥操</h3>
+            <p>让专家示教和远程协作更直观。</p>
           </article>
-          <div class="ui-visual" aria-label="智能控制界面示意">
-            <div class="ui-bar">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="ui-grid">
-              <div class="ui-node active">现场数据</div>
-              <div class="ui-node">工艺知识</div>
-              <div class="ui-node">任务模型</div>
-              <div class="ui-node">风险提示</div>
-              <div class="ui-node accent">人机协作</div>
-              <div class="ui-node">部署评测</div>
-            </div>
+          <article>
+            <h3>多模态数据</h3>
+            <p>把图像、动作、力触觉和工艺记录放在同一条线上。</p>
+          </article>
+          <article>
+            <h3>工位智能体</h3>
+            <p>给一线人员提供操作提示、异常说明和培训支持。</p>
+          </article>
+          <article>
+            <h3>部署评测</h3>
+            <p>让每次验证都有记录、反馈和改进依据。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section events-section">
+        <div class="home-event">
+          <div>
+            <p class="eyebrow">Latest Activities</p>
+            <h2>智融参加第五届上合组织成员国青年创新创业大赛大湾区预选赛</h2>
+            <p>
+              团队围绕制造业具身智能数据采集平台、工位智能和机器人执行验证进行项目展示，并持续把科研能力连接到真实制造场景。
+            </p>
+            <a class="button primary" href="activities.html">查看活动详情</a>
           </div>
-        </div>
-        <div class="zigzag reverse">
-          <article class="copy-block">
-            <p class="eyebrow">Data Loop</p>
-            <h3>从高质量采集到模型评测的连续工具链</h3>
-            <p>团队已有 XR/AR 遥操、共享自主采集、触觉视觉融合、少样本技能学习等研究积累，官网先聚焦可验证的能力方向。</p>
-          </article>
-          <div class="pipeline-visual" aria-label="数据闭环示意">
-            <div>采集</div>
-            <div>治理</div>
-            <div>训练</div>
-            <div>评测</div>
-            <div>部署</div>
-          </div>
+          <img src="assets/events/sco2026/sco-2026-1.jpg" alt="第五届上合组织成员国青年创新创业大赛大湾区预选赛项目展示" />
         </div>
       </section>
 
-      <section class="section body-section" id="body">
-        <div class="section-heading">
-          <p class="eyebrow">The Body & Partners</p>
-          <h2>硬件协同：围绕工位需求组合本体、末端与系统能力</h2>
-          <p>
-            当前官网以能力与生态协同展示为主。具体型号、负载、精度等参数，应在样机定型和客户场景验证后再更新。
-          </p>
-        </div>
-        <div class="body-grid">
-          <article class="hardware-card">
-            <div class="product-shot">
-              <img src="assets/hero-robot-platform.jpg" alt="机械臂与数据底座示意" />
-            </div>
-            <div class="hardware-copy">
-              <span>Workcell Unit</span>
-              <h3>机械臂工作单元</h3>
-              <p>面向装配、检测、分拣和实验验证场景，支持与视觉、夹爪、力控和工位软件协同。</p>
-            </div>
-          </article>
-          <article class="hardware-card">
-            <div class="product-emblem">
-              <img src="assets/lingxin-logo.jpeg" alt="灵心巧手" />
-            </div>
-            <div class="hardware-copy">
-              <span>Partner</span>
-              <h3>灵心巧手合作</h3>
-              <p>围绕灵巧末端、柔性操作、触觉/视觉融合和复杂操作数据采集探索协同。</p>
-            </div>
-          </article>
-          <article class="hardware-card">
-            <div class="product-emblem compact">
-              <img src="assets/tiantai-logo.jpeg" alt="天太机器人" />
-            </div>
-            <div class="hardware-copy">
-              <span>Partner</span>
-              <h3>天太机器人合作</h3>
-              <p>围绕机器人本体、工位执行单元与制造场景落地，推进软硬件协同验证。</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section scenario-section" id="scenarios">
-        <div class="section-heading">
-          <p class="eyebrow">Industrial Scenarios</p>
-          <h2>工业级落地场景：从执行端到数字化底座的全链路验证</h2>
-          <p>
-            优先选择可付费、可验收、可复制的场景，以数智化和场景智能进入客户，再逐步扩展到具身执行系统。
-          </p>
-        </div>
-        <div class="scenario-cards">
-          <article class="scenario-card sort">
-            <div>
-              <span>01 / Workshop Automation</span>
-              <h3>车间自动化分拣</h3>
-              <p>面向小物件抓取、分类整理、异常提示和人工接管，逐步积累可训练的操作数据。</p>
-            </div>
-          </article>
-          <article class="scenario-card waste">
-            <div>
-              <span>02 / Material Handling</span>
-              <h3>废料与物料分类</h3>
-              <p>结合视觉识别、机械执行和工艺规则，探索高重复、强环境约束任务的柔性控制。</p>
-            </div>
-          </article>
-          <article class="scenario-card rail">
-            <div>
-              <span>03 / Heavy Equipment</span>
-              <h3>轨道交通与高端装备</h3>
-              <p>围绕复杂装配、检测、运维和数字化改造，服务大型装备制造中的工位级智能闭环。</p>
-            </div>
-          </article>
-          <article class="scenario-card twin">
-            <div>
-              <span>04 / Digital Twin</span>
-              <h3>三维可视化与培训</h3>
-              <p>通过 XR/AI 培训、操作指导和现场数据可视化，帮助企业沉淀人员经验与流程知识。</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section events-section" id="events">
-        <div class="section-heading">
-          <p class="eyebrow">Latest Activities</p>
-          <h2>EAC 2026 上海：自动驾驶与具身智能产业交流</h2>
-          <p>
-            2026 年 5 月 28-29 日，EAC2026 自动驾驶与具身智能产业展览会在上海汽车会展中心举行。智融团队在自动驾驶与具身智驾产业展区进行知识分享，介绍面向智能制造场景的具身智能工作。
-          </p>
-        </div>
-        <div class="events-layout">
-          <article class="featured-event">
-            <div class="event-media">
-              <img src="活动/EAC2026/pl1eDbVVx1d.jpg" alt="EAC2026 具身智能赋能智能制造主题分享现场" />
-              <div class="event-gallery" aria-label="EAC2026 现场照片">
-                <img src="活动/EAC2026/pl1eDp9yd6b.jpg" alt="EAC2026 张云波教授现场交流" />
-                <img src="活动/EAC2026/pl1eDphFG9e.jpg" alt="EAC2026 具身智驾产业展区交流" />
-                <img src="活动/EAC2026/BZZ_8191-4651531748.jpg" alt="EAC2026 展区现场沟通" />
-              </div>
-            </div>
-            <div>
-              <span>2026.05.28-29 / 上海汽车会展中心</span>
-              <h3>具身智能赋能智能制造：挑战、路径与应用前景</h3>
-              <p>
-                张云波教授团队围绕制造业现场数据、工艺经验、人机协作与机器人执行闭环，分享了具身智能在智能制造中的落地路径，并与自动驾驶、具身智驾产业链伙伴开展现场交流。
-              </p>
-              <a class="button secondary" href="#contact">沟通活动合作</a>
-            </div>
-          </article>
-          <div class="event-list" aria-label="近期活动列表">
-            <article>
-              <time datetime="2026-05-28">2026.05.28</time>
-              <h3>自动驾驶与具身智驾产业展区知识分享</h3>
-              <p>结合汽车智能化产业链对感知、决策和场景落地的关注，展示具身智能与智能制造融合的应用前景。</p>
-            </article>
-            <article>
-              <time datetime="2026-05-28">2026.05.28</time>
-              <h3>面向制造业的具身数据与工位智能</h3>
-              <p>围绕数智化底座、XR/AI 培训、工位智能体和机器人执行单元，讨论从演示走向真实工位验证的路径。</p>
-            </article>
-            <article>
-              <time datetime="2026-05-29">2026.05.29</time>
-              <h3>现场交流与产业连接</h3>
-              <p>与自动驾驶、机器人、传感器与系统集成领域伙伴交流，探索具身智能在先进制造与产业培训中的合作机会。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section about-section" id="about">
+      <section class="section about-section">
         <div class="about-copy">
           <p class="eyebrow">About Zhirong</p>
-          <h2>科研牵引，产业场景驱动</h2>
+          <h2>来自科研团队，也走向真实产线</h2>
           <p>
-            智融由中科院香港创新研究院张云波教授团队推动，团队长期关注智能制造、XR/AR、人机协作、机器人学习与具身智能。公司当前更强调从真实制造场景切入，先做可验证的数智化与场景智能，再逐步进入系统级具身部署。
+            智融由中科院香港创新研究院张云波教授团队推动，结合智能制造、XR/AR、人机协作和机器人学习积累，服务先进制造企业的现场智能化升级。
           </p>
+          <div class="section-actions left">
+            <a class="button primary" href="about.html">了解团队</a>
+            <a class="button secondary" href="contact.html">联系合作</a>
+          </div>
         </div>
         <div class="about-panel">
-          <img src="assets/hksi-logo.png" alt="中国科学院香港创新研究院" />
-          <div class="team-portraits" aria-label="核心团队">
+          <img src="assets/brand/hksi-logo.png" alt="中国科学院香港创新研究院" />
+          <div class="team-portraits compact-team" aria-label="核心团队">
             <article>
-              <img src="张云波.png" alt="张云波教授" />
+              <img src="assets/team/zhang-yunbo.png" alt="张云波教授" />
               <strong>张云波教授</strong>
               <span>创始人 / 首席科学家</span>
             </article>
             <article>
-              <img src="肖琴琴.png" alt="肖琴琴博士" />
+              <img src="assets/team/xiao-qinqin.png" alt="肖琴琴博士" />
               <strong>肖琴琴博士</strong>
               <span>联合创始人 / CEO</span>
             </article>
+            <article>
+              <img src="assets/team/deng-xiongxiwen.jpg" alt="邓熊希文博士" />
+              <strong>邓熊希文博士</strong>
+              <span>机器人遥操作与数据闭环专家</span>
+            </article>
+            <article>
+              <img src="assets/team/wang-xueting.jpg" alt="王雪婷博士" />
+              <strong>王雪婷博士</strong>
+              <span>人机协作与机器人学习研究专家</span>
+            </article>
+            <article>
+              <img src="assets/team/chen-chenrui.jpg" alt="陈辰睿" />
+              <strong>陈辰睿</strong>
+              <span>端到端系统工程与生成式 AI 工程师</span>
+            </article>
+            <article>
+              <img src="assets/team/fan-zhen.png" alt="樊镇" />
+              <strong>樊镇</strong>
+              <span>工程落地与系统交付工程师</span>
+            </article>
           </div>
-          <div class="about-tags">
-            <span>香港研发与转化资源</span>
-            <span>深圳 / 广州工程化协同</span>
-            <span>南京 / 长三角制造场景验证</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div class="contact-copy">
-          <p class="eyebrow">Wechat Contact</p>
-          <h2>扫码联系肖博士，沟通产线痛点与合作场景</h2>
-          <p>适合围绕数智化底座、工位智能体、XR/AI 培训、具身数据采集与机器人执行单元开展初步需求沟通。</p>
-        </div>
-        <div class="wechat-card">
-          <img src="assets/wechat-contact.jpg" alt="肖博士微信二维码" />
-          <strong>肖博士微信</strong>
-          <span>扫码添加，了解项目与合作方式</span>
-          <a class="email-link" href="mailto:xqq@zrbot.ai">xqq@zrbot.ai</a>
         </div>
       </section>
     </main>
 
-    <a class="zrbot-widget" href="#contact" aria-label="跳转到微信二维码联系入口">
+    <a class="zrbot-widget" href="contact.html" aria-label="跳转到联系入口">
       <span>ZR</span>
       产线方案咨询
     </a>
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <img src="assets/zhirong-logo.png" alt="智融" />
+        <img src="assets/brand/zhirong-logo.png" alt="智融" />
         <p>制造业具身智能赋能平台</p>
       </div>
       <div class="footer-links">
         <div>
-          <h3>产品线</h3>
-          <a href="#solution">数智化底座</a>
-          <a href="#brain">智能大脑</a>
-          <a href="#body">硬件协同</a>
+          <h3>网站栏目</h3>
+          <a href="solutions.html">解决方案</a>
+          <a href="technology.html">技术能力</a>
+          <a href="activities.html">近期活动</a>
         </div>
         <div>
-          <h3>解决方案</h3>
-          <a href="#scenarios">车间分拣</a>
-          <a href="#scenarios">高端装备</a>
-          <a href="#scenarios">XR/AI 培训</a>
-          <a href="#events">近期活动</a>
-        </div>
-        <div>
-          <h3>生态合作</h3>
-          <a href="#body">灵心巧手</a>
-          <a href="#body">天太机器人</a>
-          <a href="#about">中科院香港创新研究院</a>
+          <h3>重点方向</h3>
+          <a href="solutions.html">数智化底座</a>
+          <a href="solutions.html">工位智能体</a>
+          <a href="technology.html">具身数据采集</a>
         </div>
         <div>
           <h3>关于我们</h3>
-          <a href="#about">团队背景</a>
-          <a href="#contact">微信联系</a>
-          <a href="#contact">商务合作</a>
+          <a href="about.html">团队背景</a>
+          <a href="about.html">生态合作</a>
+          <a href="contact.html">商务合作</a>
+        </div>
+        <div>
+          <h3>联系</h3>
+          <a href="contact.html">微信联系</a>
+          <a href="mailto:xqq@zrbot.ai">xqq@zrbot.ai</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -400,6 +247,11 @@
       </div>
     </footer>
 
-    <script src="script.js?v=20260601g"></script>
+    <script src="script.js?v=20260602l"></script>
   </body>
 </html>
+
+
+
+
+
