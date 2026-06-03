@@ -1212,6 +1212,201 @@ body[data-page="about"] .about-panel {
   line-height: 1.45;
 }
 
+.about-origin {
+  margin: 18px 0 0;
+  color: #34506a;
+  font-size: 15px;
+  font-weight: 620;
+}
+
+.slide-frame {
+  max-width: var(--content);
+  margin: 0 auto 28px;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
+}
+
+.slide-frame img {
+  width: 100%;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  max-width: var(--content);
+  margin: 0 auto;
+}
+
+.impact-grid-tight {
+  margin-top: 18px;
+}
+
+.impact-card {
+  padding: 26px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
+}
+
+.impact-card > span {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.impact-card h3 {
+  font-size: 24px;
+}
+
+.impact-note,
+.impact-list p {
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.logo-pair {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.logo-tile {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 18px;
+  background: #f8fbff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.logo-tile img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+}
+
+.logo-tile strong {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.wordmark-chip {
+  min-height: 90px;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  color: var(--blue);
+  font-size: 26px;
+  font-weight: 850;
+  line-height: 1.1;
+  text-align: center;
+  background: linear-gradient(135deg, #eef5ff, #f8fbff);
+  border: 1px solid #d7e6ff;
+  border-radius: 6px;
+}
+
+.wordmark-chip-dark {
+  min-height: 76px;
+  color: #8c1515;
+  font-size: 22px;
+  background: linear-gradient(135deg, #fff7f7, #fffefe);
+  border-color: #f1d5d5;
+}
+
+.badge-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge-cloud span {
+  padding: 10px 12px;
+  color: #254158;
+  font-size: 13px;
+  font-weight: 760;
+  background: #eef5fb;
+  border-radius: 999px;
+}
+
+.impact-proof {
+  max-width: var(--content);
+  margin: 0 auto;
+}
+
+.impact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.quote-card {
+  text-align: center;
+}
+
+.quote-logo {
+  width: min(220px, 100%);
+  margin: 4px auto 18px;
+}
+
+.quote-logo-seal {
+  width: min(148px, 100%);
+}
+
+.stanford-lockup {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  margin: 6px auto 20px;
+}
+
+.stanford-seal {
+  width: min(112px, 42%);
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.stanford-wordmark {
+  width: min(300px, 88%);
+  max-height: 86px;
+  object-fit: contain;
+}
+
+.impact-roadmap {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  max-width: var(--content);
+  margin: 0 auto;
+}
+
+.impact-roadmap div {
+  min-height: 110px;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 780;
+  line-height: 1.45;
+  text-align: center;
+  background: linear-gradient(180deg, #f9fbfe 0%, #eef5fb 100%);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
+}
+
 .team-directory p {
   margin: 10px 0 0;
   color: var(--ink-soft);
@@ -1418,6 +1613,7 @@ body[data-page="about"] .about-panel {
   .events-layout,
   .featured-event,
   .capability-strip,
+  .impact-grid,
   .detail-grid,
   .technology-gallery,
   .technology-proofs,
@@ -1535,6 +1731,7 @@ body[data-page="about"] .about-panel {
   .events-layout,
   .featured-event,
   .capability-strip,
+  .impact-grid,
   .detail-grid,
   .technology-gallery,
   .technology-proofs,
@@ -1547,6 +1744,11 @@ body[data-page="about"] .about-panel {
   }
 
   .route-axis {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-pair,
+  .impact-roadmap {
     grid-template-columns: 1fr;
   }
 
