@@ -334,6 +334,7 @@ const englishText = {
   "科研牵引，产业场景驱动": "Research-led and industry-scenario driven",
   "智融由中科院香港创新研究院张云波教授团队推动，团队长期关注智能制造、XR/AR、人机协作、机器人学习与具身智能。公司当前更强调从真实制造场景切入，先做可验证的数智化与场景智能，再逐步进入系统级具身部署。": "Zhirong is driven by Professor Yunbo Zhang's team at the Hong Kong Institute of Science & Innovation, CAS. The team has long focused on smart manufacturing, XR/AR, human-robot collaboration, robot learning and embodied intelligence. The company emphasizes entering through real manufacturing scenarios, building verifiable digital and scenario intelligence before moving into system-level embodied deployment.",
   "张云波教授": "Prof. Yunbo Zhang",
+  "创始人 / CEO": "Founder / CEO",
   "创始人 / 首席科学家": "Founder / Chief Scientist",
   "肖琴琴博士": "Dr. Qinqin Xiao",
   "联合创始人 / CEO": "Co-founder / CEO",
